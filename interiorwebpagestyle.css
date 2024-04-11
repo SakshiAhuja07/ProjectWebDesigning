@@ -92,6 +92,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 12px;
+    
 }
 .title-price h3{
     font-size: 1.1rem;
@@ -106,6 +107,7 @@ header{
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     gap: 1rem;
     margin-top: 2rem;
+    
 }
 .f1{
     color: var(--main-color);
@@ -119,10 +121,15 @@ header{
 }
 .new-container .box{
     border-radius: 4px;
+    
 }
 .new-container .box .box-img{
     border-radius: 4px;
+    
+}
 
+.new-container {
+    display: flex;
 }
 .about {
     display: grid;
@@ -241,6 +248,31 @@ header{
     padding: 20px;
     text-align: center;
 }
+.Interior {
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+.Decoration {
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+.Exterior {
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+.Planning {
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+.Design {
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+.Execution {
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
 /*making responsive*/
 @media (max-width:991px){
     header{
