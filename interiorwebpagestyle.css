@@ -87,6 +87,7 @@ header{
 .box .box-img img:hover {
     transform: scale(1.1);
     transition: 0.5s;
+    
 }
 .title-price {
     display: flex;
@@ -248,7 +249,7 @@ header{
     padding: 20px;
     text-align: center;
 }
-.Interior {
+/*.Interior {
     padding-left: 2%;
     padding-bottom: 2%;
 }
@@ -271,6 +272,15 @@ header{
 .Execution {
     padding-left: 2%;
     padding-bottom: 2%;
+}*/
+.f1 {
+    margin-top: 5%;
+}
+.m1 {
+    margin: 5%;
+}
+.box-img {
+    margin-bottom: 5%;
 }
 
 /*making responsive*/
